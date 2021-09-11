@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            app:showAsAction="always"
+            android:icon="@drawable/ic_message_24"
+            android:id="@+id/message"
+            android:title="Shopping Cart"/>
+
+
+        <item
+            app:showAsAction="always"
+            android:id="@+id/shopping_Cart"
+            android:icon="@drawable/ic_shopping_cart_24"
+            android:title="Shopping Cart"/>
+
+        <item
+            app:showAsAction="always"
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_logout_24"
+            android:title="Shopping Cart"/>
+
+</menu>
+

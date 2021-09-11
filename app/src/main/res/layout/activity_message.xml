@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <com.google.android.material.tabs.TabLayout
+        app:tabIndicatorColor="@color/white"
+        android:id="@+id/message_tab"
+        app:tabTextColor="#BFB4B4"
+        android:background="#474646"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/message_pager"
+        android:layout_below="@+id/message_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
