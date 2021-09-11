@@ -1,2 +1,2 @@
-#Summer_Internship_Grocery_Store_Application
+# Summer_Internship_Grocery_Store_Application
 It is an android based application, in which it permits a customer to submit online orders for items or services from a store that serves both walk-in customer and online customers. Grocery store system helps the customers to choose their daily needs and add products to their shopping cart. Customers provides their complete detail of address and contact and they get their chosen products in their home.
